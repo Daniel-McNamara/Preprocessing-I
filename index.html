@@ -1,122 +1,156 @@
-<!doctype html>
-
-<html lang="en">
+<!DOCTYPE HTML>
+<html lang="en-US">
 <head>
-  
-  <title>My Resume</title>
-
-  <link rel="stylesheet" href="css/index.css">
-
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
+	<meta charset="UTF-8">
+	<title></title>
+	
+	<link rel="stylesheet" href="style.css" />
 </head>
-<body class="w3-light-grey">
+<body>
+	<div class="container">
+	<header>
+		<h1 id="name">Daniel McNamara</h1>
+		
+		<div id="designation">
+		
+			<span class="title">Full Stack Web Developer</span>
+			<span class="organization">Lambda</span>
+		
+		</div>
+		
+		<div class="contact">
+      <div class="email">danmac8407@gmail.com</div>
+      <div class="phone">1(228)224-9119</div>
+      <div class="place">Lafayette, La.</div>
+		</div>
+		
+	</header>
+	
+	<div class="content" role=main>
+	
+		<section id="objective">
+			<h2 class="title">Objective</h2>
+			<div class="description">
+				<p>
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+				</p>			
+			</div> <!-- end description -->
+		</section>
+		
+		
+		<section id="Education">
+			<h2 class="title">Education</h2>
+			<div class="description">
+				
+				<table>
+					<thead>
+						<td>Current</td>
+						<td>Student</td>
+						<td>Lambda School</td>
+						<td>N/A</td>
+					</thead>
+					
+					<!-- edit this/ row-wise-->
+					<tr>
+						<td>2002</td>
+						<td>G.E.D</td>
+						<td>Virginia Commonwealth Challenge</td>
+						<td>Graduate</td>
+					</tr>
+					
+					<!--<tr>  row2 
+						<td>abc</td>
+						<td>abc</td>
+						<td>abc</td>
+						<td>abc</td>
+					</tr>	-->				
+					
+				</table>
+			
+			
+			</div> <!-- end description -->
+		</section>
+			
+		<section id="projects">
+			<h2 class="title">Projects Undertaken</h2>
+			<div class="description">
+				
+				<!-- Project 1 -->
+				<section class="project">
+					<h3 class="title">Preprocessing-I</h3>
+					<div class="meta">
+						<span class="field">Project Field</span> <span class="date">December 2019</span>
+					</div>
+					<p class="description"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+				</section> <!-- end project description -->
+				
+				<!-- project 2 -->
+				<section class="project">
+					<h3 class="title">responsive-web-design-I</h3>
+					<div class="meta">
+						<span class="field">Project Field</span> <span class="date">December 2019</span>
+					</div>
+					<p class="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+				</section> <!-- end project description -->
 
-  <!-- Page Container -->
-  <div class="w3-content w3-margin-top" style="max-width:1400px;">
-  
-    <!-- The Grid -->
-    <div class="w3-row-padding">
-    
-      <!-- Left Column -->
-      <div class="w3-third">
-      
-        <div class="w3-white w3-text-grey w3-card-4">
-          <div class="w3-display-container">
-            <img src="images/profile-pic.jpg"alt="Avatar">
-            <div class="w3-display-bottomleft w3-container w3-text-black">
-              <h2>Daniel McNamara</h2>
-            </div>
-          </div>
-          <div class="w3-container">
-            <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Web Developer</p>
-            <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Lafayette, La.</p>
-            <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>danmac8407@gmail.com</p>
-            <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>1(228)224-9119</p>
-            <hr>
-  
-            <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
-            <p>HTML</p>
-            
-            <p>CSS</p>
-            
-            <p>Javascript(soon)</p>
-            
-            <br>
-  
-            <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>My name is Daniel I think I would be a good hire due to my passion and drive
-          for technology and learning.</b></p>
-            
-        </div><br>
-  
-      <!-- End Left Column -->
-      </div>
-  
-      <!-- Right Column -->
-      <div class="w3-twothird">
-      
-        <div class="w3-container w3-card w3-white w3-margin-bottom">
-          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
-          <div class="w3-container">
-            <h5 class="w3-opacity"><b>responsive-web-design-I</b></h5>
-            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>December 10 2019</h6>
-            <p>link to git repo.</p>
-            <hr>
-          </div>
-          <div class="w3-container">
-            <h5 class="w3-opacity"><b>portfolio-website</b></h5>
-            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>December 11 2019</h6>
-            <p>link to git repo.</p>
-            <hr>
-          </div>
-          <div class="w3-container">
-            <h5 class="w3-opacity"><b>Preprocessing-I</b></h5>
-            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>December 12 2019</h6>
-            <p>link to git repo. </p><br>
-          </div>
-        </div>
-  
-        <div class="w3-container w3-card w3-white">
-          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
-          <div class="w3-container">
-            <h5 class="w3-opacity"><b>W3Schools.com</b></h5>
-            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
-            <p>Web Development! All I need to know in one place</p>
-            <hr>
-          </div>
-          <div class="w3-container">
-            <h5 class="w3-opacity"><b>Lambda Academy</b></h5>
-            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Current</h6>
-            <p>Full Stack Web Development</p>
-            <hr>
-          </div>
-          <div class="w3-container">
-            <h5 class="w3-opacity"><b>Virginia Commonwealth Challenge</b></h5>
-            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2001 - 2002</h6>
-            <p>G.E.D</p><br>
-          </div>
-        </div>
-  
-      <!-- End Right Column -->
-      </div>
-      
-    <!-- End Grid -->
-    </div>
-    
-    <!-- End Page Container -->
-  </div>
-  
-  <footer class="w3-container w3-teal w3-center w3-margin-top">
-    <p>Find me on social media.</p>
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
-    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-  </footer>
-  
-  </body>
+
+				<!-- project 3 -->
+				<section class="project">
+					<h3 class="title">portfolio-website</h3>
+					<div class="meta">
+						<span class="field">Project Field</span> <span class="date">December 2019</span>
+					</div>
+					<p class="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+				</section> <!-- end project description -->				
+				
+				</div> <!-- end description -->
+		</section>	
+	
+
+		<!-- Training/ seminars -->
+		
+		
+		
+		<!-- Scholistics Achievements -->
+		
+		
+		
+		<!-- Technical Skills -->
+		
+		
+		<!-- Extra-Curricular Activities -->
+		
+		
+		<!-- Personal Informations -->
+		
+		
+		<!-- References -->
+		
+		
+		
+		<!-- Declarations -->
+
+	
+		<!-- signatory -->
+	
+	
+	
+	
+	</div> <!-- end main content -->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</div> <!-- end container -->
+	
+</body>
 </html>
