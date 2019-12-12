@@ -132,5 +132,15 @@ table {
 }
 html,
 body {
+  height: 100%;
+}
+.html {
   background-color: aquamarine;
+}
+/*Media Queries for Responsive Design*/
+@media (max-width: 500px) {
+  /* Style adjustments for viewports 480px and over go here */
+}
+@media (min-width: 768px) {
+  /* Style adjustments for viewports 768px and over go here */
 }
