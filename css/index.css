@@ -132,8 +132,5 @@ table {
 }
 html,
 body {
-  height: 100%;
-}
-.webdev {
-  width: 30%;
+  background-color: aquamarine;
 }
