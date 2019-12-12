@@ -24,6 +24,10 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+@import url('https://fonts.googleapis.com/css?family=Lilita+One|Solway&display=swap');
+
+@body-font:'Solway', serif;
+@heading-font:'Lilita One', cursive;
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -56,4 +60,12 @@ table {
 html, body {
 	height: 100%;
 	background-color: cadetblue;
+}
+body{
+	font-family: @body-font;
+}
+h1, h2, h3, h4, h5 {
+	font-size: 2rem;
+	font-family: @heading-font;
+	color: blueviolet;
 }
